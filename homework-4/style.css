@@ -1,0 +1,21 @@
+body {
+    font-size: 20px;
+}
+
+header {
+    height: 60px;
+    background-color: antiquewhite;
+}
+
+img {
+    width: 300px;
+}
+
+.blockquote {
+    background-color: rgb(114, 114, 77);
+}
+
+.a {
+    background-color: violet;
+    height: 300px;
+}
