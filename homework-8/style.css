@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(50, 46, 46);
+    font-size: 32px;
+    color: white;
+}
+
+.wrapper {
+    height: 2000px;
+}
+
+.fixed {
+    position: fixed;
+    right: 50px;
+    left: 50%;
+    bottom: 100px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 50%;
+    left: 100px;
+    border-radius: 10000px;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+
+.rectangle {
+    z-index: -1;
+    position: relative;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
