@@ -1,0 +1,108 @@
+body {
+    background-color: #1e1e20;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.block {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+/* ========================================================= */
+
+/* .block { */
+/* animation: move-block 3s .3s infinite alternate, */
+/* color-block 3s .3s infinite alternate; */
+
+/* animation-name: ; */
+/* animation-duration: ; */
+/* animation-iteration-count: infinite; */
+/* animation-direction: alternate-reverse; */
+/* animation-delay: ; */
+/* animation-fill-mode: forwards; */
+/* animation-timing-function: linear; */
+/* } */
+
+/* @keyframes move-block { */
+/* 0% { */
+/* left: 0px; */
+/* } */
+/* 50% { */
+/* border-radius: 50%; */
+/* } */
+/* 100% { */
+/* left: calc(100% - 200px); */
+/* } */
+/* } */
+/* @keyframes color-block { */
+/* 0% { */
+/* background-color: #fff; */
+/* } */
+/* 100% { */
+/* background-color: rgb(247, 109, 109); */
+/* } */
+/* } */
+
+.block {
+    animation: move-block 1s infinite alternate;
+}
+
+@keyframes move-block {
+    0% {
+        left: 0px;
+        width: 0px;
+    }
+
+    10% {
+        background-color: #ed5858;
+    }
+
+    20% {
+        background-color: #ed8a5d;
+    }
+
+    30% {
+        background-color: rgb(235, 204, 126);
+    }
+
+    40% {
+        background-color: rgb(151, 225, 124);
+    }
+
+    50% {
+        background-color: #5de6ed;
+    }
+
+    60% {
+        background-color: #5468e7;
+    }
+
+    70% {
+        background-color: #561fe2;
+    }
+
+    80% {
+        background-color: #d611f0;
+    }
+
+    90% {
+        background-color: rgb(235, 49, 102);
+    }
+
+    100% {
+        left: calc(100% - 200px);
+        transform: rotate(180deg) scale(0.75);
+    }
+}
