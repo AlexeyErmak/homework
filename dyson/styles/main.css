@@ -1,0 +1,63 @@
+/* =IMPORT= */
+
+/* @import '../styles/swiper-bundle.min.css'; */
+
+@import '../styles/helpers/reset.css';
+@import '../styles/fonts.css';
+
+@import '../styles/blocks/header.css';
+@import '../styles/blocks/footer.css';
+@import '../styles/blocks/hero.css';
+@import '../styles/blocks/details.css';
+@import '../styles/blocks/technique.css';
+@import '../styles/blocks/whyus.css';
+@import '../styles/blocks/offers.css';
+
+
+/* =MAIN STYLES= */
+
+.body {
+    font-family: 'NAMU', sans-serif;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(#111111);
+    background: var(#FFFFFF);
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+:root {
+    --general-color: #111111;
+    --desc-color: #000000;
+    --accent-color-text: #FFFFFF;
+    --accent-color: #C5358C;
+    --transition: all .5s;
+}
+
+/* =BLOCKS STYLES= */
+
+.logo {
+    transition: all .2s;
+}
+
+.logo:hover {
+    filter: drop-shadow(2px 2px 0px var(--accent-color))
+}
