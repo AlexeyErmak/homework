@@ -1,0 +1,128 @@
+/* integral */
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Integral CF";
+  src: local("FONTSPRING DEMO - Integral CF Bold Regular"),
+    local("FONTSPRINGDEMO-IntegralCFBoldRegular"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff2")
+      format("woff2"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFBoldRegular.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Integral CF Extra";
+  src: local("FONTSPRING DEMO - Integral CF Extra Bold Regular"),
+    local("FONTSPRINGDEMO-IntegralCFExtraBoldRegular"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff2")
+      format("woff2"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFExtraBoldRegular.woff")
+      format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Integral CF";
+  src: local("FONTSPRING DEMO - Integral CF Italic"),
+    local("FONTSPRINGDEMO-IntegralCFItalic"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFItalic.woff2") format("woff2"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Integral CF";
+  src: local("FONTSPRING DEMO - Integral CF Medium Regular"),
+    local("FONTSPRINGDEMO-IntegralCFMediumRegular"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff2")
+      format("woff2"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFMediumRegular.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Integral CF";
+  src: local("FONTSPRING DEMO - Integral CF Regular"),
+    local("FONTSPRINGDEMO-IntegralCFRegular"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFRegular.woff2")
+      format("woff2"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "FONTSPRING DEMO - Integral CF";
+  src: local("FONTSPRING DEMO - Integral CF Heavy Regular"),
+    local("FONTSPRINGDEMO-IntegralCFHeavyRegular"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff2")
+      format("woff2"),
+    url("../assets/fonts/FONTSPRINGDEMO-IntegralCFHeavyRegular.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* satoshi */
+
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Bold"), local("Satoshi-Bold"),
+    url("../assets/fonts/Satoshi-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Satoshi-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Regular"), local("Satoshi-Regular"),
+    url("../assets/fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Satoshi-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Light"), local("Satoshi-Light"),
+    url("../assets/fonts/Satoshi-Light.woff2") format("woff2"),
+    url("../assets/fonts/Satoshi-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Black"), local("Satoshi-Black"),
+    url("../assets/fonts/Satoshi-Black.woff2") format("woff2"),
+    url("../assets/fonts/Satoshi-Black.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: local("Satoshi Medium"), local("Satoshi-Medium"),
+    url("../assets/fonts/Satoshi-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Satoshi-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
