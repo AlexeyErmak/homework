@@ -1,0 +1,18 @@
+.introductory {
+  padding: 139px 0 64px;
+  background: var(--general-color);
+}
+
+.introductory__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: calc(40px / 2.25rem);
+  color: var(--white-color);
+  margin-bottom: 16px;
+}
+
+.introductory__desc {
+  line-height: calc(24px / 1rem);
+  color: var(--white-color);
+  opacity: var(--hover-opacity);
+}
